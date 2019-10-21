@@ -2,30 +2,37 @@
     <head>
         <title>SIGN UP</title>
         <link rel="stylesheet" type="text/css" href="signup.css">
-     
-            <nav>
-                <ul>
-                <li><a href="/html/">KEBONHAHA</a></li>
-                <li><a href="/html/">BERANDA</a></li> 
-                <li><a href="/css/">ANIMALS</a> </li>
-                <li><a href="/js/">PLANTS</a> </li>
-                <li><a href="/jquery/">ZOO</a> </li>
-                <li><a href="/jquery/">ABOUT US</a></li>
-                <li><a href="a.html">LOGIN</a></li>
-                </ul>
-            </nav>
-        </div>
     </head>
 <body>
+            
+    <nav>
+        <ul>
+        <li><img src="Icon.png"></li>
+        <li><a href="index.html">HOME</a></li> 
+        <li><a href="animals.html">ANIMALS</a> </li>
+        <li><a href="plants.html">PLANTS</a> </li>
+        <li><a href="zoo.html">ZOO</a> </li>
+        <li class="dropdown"><a href="#">LANGUAGE</a>
+            <ul class="isi-dropdown">
+                <li><a href="#">Indonesia</a></li>
+                <br>
+                <li><a href="#">English</a></li>
+            </ul>
+        </li>
+        <li><a href="info.html">ABOUT US</a></li>
+        <li><a href="login.html">LOGIN</a></li>
+        </ul>
+    </nav>
 
          <h1>KEBONHAHAA</h1>
          <h2>The One and Only Education about Flora and Fauna</h2>
         <div class="box">
             <form>
-                
-                <input type="text" name="username" class="form_signup" placeholder="username atau email">
-                <input type="password" name="password" class="form_signup" placeholder="password ..">
-                <input type="submit" class="tombol_signup" value="SIGN UP">
+                <input type="text" name="name" class="form_login" placeholder="name">
+                <input type="text" name="username" class="form_login" placeholder="username">
+                <input type="text" name="email" class="form_login" placeholder="email">
+                <input type="password" name="password" class="form_login" placeholder="password ..">
+                <input type="submit" class="tombol_login" value="SIGN UP">
                 <input type="button" class="tombol_facebook" value="facebook">
                 <input type="button" class="tombol_google" value="google">
             </form>
