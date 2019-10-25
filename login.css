@@ -58,6 +58,11 @@ li {
     background-color: #b5cbf6;
   }
 
+.login{
+    color: #14394F;
+    font-weight: 1000;
+}
+
 h1{
     text-align: center;
     margin-top: 20px;
@@ -106,7 +111,7 @@ h3{
     padding: 20px;
 	border-radius: 100px;
     font-size: 11pt;
-    margin-top: 5px;
+    margin-top: 15px;
     margin-right: 20%;
     margin-left: 12%;
 	margin-bottom: 15px;

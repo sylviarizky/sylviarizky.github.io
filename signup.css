@@ -58,6 +58,12 @@ li {
     background-color: #b5cbf6;
   }
 
+  .login{
+    color: #14394F;
+    font-weight: 1000;
+}
+
+
 h1{
     text-align: center;
     margin-top: 20px;
@@ -84,11 +90,12 @@ h3{
     font-size: 14px;
 }
 
+
 .box{
     width: 450px;
-    height: 400px;
+    height: 480px;
     background: #F1F6F8;
-    top : 30%;
+    top : 35%;
     left : 50%;
     position: relative;
     transform: translate(-50%,-50%);
