@@ -1,5 +1,6 @@
 <html>
     <head>
+        <meta charset = "UTF-8">
         <title>LOGIN</title>
         <link rel="stylesheet" type="text/css" href="login.css">
     </head>
@@ -11,14 +12,7 @@
         <li><a href="index.html">HOME</a></li> 
         <li><a href="animals.html">ANIMALS</a> </li>
         <li><a href="plants.html">PLANTS</a> </li>
-        <li><a href="zoo.html">ZOO</a> </li>
-        <li class="dropdown"><a href="#">LANGUAGE</a>
-            <ul class="isi-dropdown">
-                <li><a href="#">Indonesia</a></li>
-                <br>
-                <li><a href="#">English</a></li>
-            </ul>
-        </li>
+        <li><a href="quiz.html">LET'S STUDY</a> </li>
         <li><a href="info.html">ABOUT US</a></li>
         <li><a href="login.html" class="login">LOGIN</a></li>
         </ul>
@@ -27,9 +21,9 @@
          <h1>KEBONHAHAA</h1>
          <h2>The One and Only Education about Flora and Fauna</h2>
         <div class="box">
-            <form>
-                <input type="text" name="username" class="form_login" placeholder="username atau email">
-                <input type="password" name="password" class="form_login" placeholder="password ..">
+            <form name="login" action="animals.html">
+                <input type="text" id="username" class="form_login" placeholder="username">
+                <input type="password" id="password" class="form_login" placeholder="password ..">
                 <input type="button" class="tombol_login" value="LOGIN" onclick="window.location.href='animals.html'">
                 <input type="button" class="tombol_facebook" value="facebook">
                 <input type="button" class="tombol_google" value="google">
